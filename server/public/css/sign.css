@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+scroll-behavior: smooth;
+background: linear-gradient(120deg, #95AC9B 0%, rgba(8, 158, 47, 0.00) 113.15%);
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+}
+
+.gedung {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 750px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #5E8C6A;
+    margin: 30px 0px 0px 30px;
+}
+
+.gedung img {
+    width: 300px;
+    height: 750px;
+    flex-shrink: 0;
+    border-radius: 25px;
+}
+.sign{
+    width: 69%;
+    height: 750px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    margin: 30px 0px 0px -10px;
+}
+
+.create{
+    position: absolute;
+    top: 60px;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background: #FFF;
+    font-style: normal;
+    font-size: 36px;
+}
+
+.tipe{
+    background: #FFF;
+    font-size: 16px;
+    margin: 0;
+}
+
+
+.isi{
+    display: inline-block;
+    align-items: center;
+    background: #FFF;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+.isi2{
+    align-items: center;
+    background: #FFF;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.input {
+    background: #FFF;
+    border: 2px solid #5E8C6A;
+    color: black;
+    font-size: 15px;
+    border-radius: 2px;
+    width: 520px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.input2{
+    background: #FFF;
+    border: 2px solid #5E8C6A;
+    color: #000000;
+    font-size: 15px;
+    border-radius: 2px;
+    width: 1080px;
+    height: 60px;
+    padding-left: 10px;
+}
+
+.input::placeholder, .input2::placeholder{
+    color: #c0c0c0;
+}
+
+.input:focus {
+    border-color:#5E8C6A;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 150px;
+    top: 45%;
+    transform: translateY(200%);
+    cursor: pointer;
+    background-image: url('img/eye-closed.png');
+    width: 25px;
+    height: 20px;
+    background-size: cover;
+}
+
+.createbutton{
+    margin: 20px;
+    width: 1097px;
+    background-color: #729A7C;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.create-account-btn {
+    background-color: #729A7C;
+    width: 800px;
+    height: 70px;
+    font-size: 25px;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.already{
+    background: white;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.login-link {
+    background: white;
+    font-weight: bold;
+    color: #5E8C6A;
+    text-decoration: none; /* Remove default underline on link */
+}
+
+.login-link:hover {
+    text-decoration: underline; 
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    background: white;
+}
+  
+  .line {
+    flex-grow: 1;
+    height: 2px;
+    background: #b2b2b2;
+}
+  
+  .or {
+    color: #b3b3b3;
+    background: white;
+    margin: 0 10px;
+  }
+
+.login-container{
+    background: white;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.login-button {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px 150px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    background: white;
+    color: black;
+}
+  
+.google-logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background: white;
+}
+
+.login-button2  {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px 150px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    background: white;
+    color: black;
+    margin-left: 40px;
+}

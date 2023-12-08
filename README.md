@@ -55,11 +55,11 @@ Before you begin, ensure you have met the following requirements:
 3. Access the application in your web browser at http://localhost:8000.
 
 ## Contributors
-Nicholas Prasetio - 2540115490 
-Oliver Sebastian - 2540125352 
-Nathanael Kenneth Nurtanio - 2540121852 
-Stella - 2502007022 
-Rizka Nurul Aziziyah - 2502007754 
+Nicholas Prasetio - 2540115490 |
+Oliver Sebastian - 2540125352 |
+Nathanael Kenneth Nurtanio - 2540121852 |
+Stella - 2502007022 |
+Rizka Nurul Aziziyah - 2502007754 |
 Novitasari Fitriah Andriani - 2502014583
 
 ## @Kelompok 3-LA01-Web Progamming-Binus University

@@ -1,0 +1,685 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.header{
+    width: 100%;
+    height: 120px;
+    background:white;
+    justify-content: center;
+}
+
+.logo{
+    position: absolute;
+    align-items: c;
+    width: 90px;
+    height: 90px;
+    left: 50px;
+    top: 10px;
+}
+
+.nav{
+    position: absolute;
+    justify-content: space-between;
+    max-width: 998px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links li{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin: 30px;
+    top: 12px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.nav-links a.hum{
+    color: #729A7C;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn-login{
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #5E8C6A;
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    width: 175px;
+    height: 52px;
+    border-radius: 200px;
+    border: none;
+}
+
+.btn-login a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 800px;
+    flex-shrink: 0;
+    background: #E8F7EC;
+}
+
+.biru{
+    position: absolute;
+    width: 560px;
+    height: 397px;
+    right: 130px;
+    top: 25%;
+}
+
+.welkom{
+    position: absolute;
+    top: 25%;
+    left: 122px;
+    color: #5E8C6A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.heal{
+    position: absolute;
+    top: 28%;
+    left: 120px;
+    color: #000;
+    font-family: Work Sans;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.aa{
+    position: absolute;
+    top: 48%;
+    left: 120px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.meet{
+    position: absolute;
+    top: 59%;
+    left: 122px;
+    width: 223px;
+    height: 67px;
+    background-color: #5E8C6A;
+    border-radius: 200px;
+    border: none;
+}
+
+.meet a{
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+.dua-plus{
+    font-family: Work Sans;
+    font-size: 48px;
+    position: absolute;
+    top: 80%;
+    left: 141px;
+}
+
+.dua-plus p{
+    color: #9B9B9B;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.dua-doc{
+    font-family: Work Sans;
+    font-size: 48px;
+    position: absolute;
+    top: 80%;
+    left: 413px;
+}
+
+.dua-doc p{
+    color: #9B9B9B;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.container2{
+    background: white;
+    width: 100%;    
+    height: 511px;
+}
+
+.container2 h1{
+    font-family: Work Sans;
+    font-size: 40px;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.satu{
+    width: 341px;
+    height: 100px;
+    position: relative;
+    top: 30%;
+    left: 182px;
+}
+
+.satu img{
+    width: 79px;
+    height: 79px;
+}
+
+.book{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.dua{
+    width: 341px;
+    height: 100px;
+    position: relative;
+    top: 11%;
+    left: 40%;
+}
+
+.dua img{
+    width: 79px;
+    height: 79px;
+}
+
+.cek{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.tiga{
+    width: 341px;
+    height: 100px;
+    position: relative;
+    top: -9%;
+    left: 70%;
+}
+
+.tiga img{
+    width: 79px;
+    height: 79px;
+}
+
+.report{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.container3{
+    width: 100%;
+    height: 896px;
+    background: linear-gradient(99deg, #3E6B4A 4.2%, rgba(246, 246, 246, 0.00) 132.52%);
+}
+
+.container3 h1{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 40px;
+}
+
+.doc1{
+    width: 345px;
+    height: 473px;
+    position: relative;
+    top: 20%;
+    left: 182px;
+}
+
+.gede{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+.doc1 p{
+    color: white;
+}
+
+.ped{
+    margin-left: 10px;
+}
+
+.square{
+    background: #5E8C6A;
+    position: absolute;
+    top: 350px;
+    width: 345px;
+    height: 140px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.rs{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 20px;
+}
+
+.rss{
+    display: inline;
+}
+
+.topi{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.toga{
+    width: 20px;
+}
+
+.togas{
+    display: inline;
+}
+
+.plus{
+    position: absolute;
+    top: 30%;
+    left: 80%;
+}
+
+.doc2{
+    width: 345px;
+    height: 473px;
+    position: absolute;
+    top: 209.5%;
+    left: 700px;
+}
+
+.gede2{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+.doc2 p{
+    color: white;
+}
+
+.ped2{
+    margin-left: 10px;
+}
+
+.square2{
+    background: #5E8C6A;
+    position: absolute;
+    top: 350px;
+    width: 345px;
+    height: 140px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.rs2{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 20px;
+}
+
+.rss2{
+    display: inline;
+}
+
+.topi2{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.toga2{
+    width: 20px;
+}
+
+.togas2{
+    display: inline;
+}
+
+.plus2{
+    position: absolute;
+    top: 30%;
+    left: 80%;
+}
+
+.doc3{
+    width: 345px;
+    height: 473px;
+    position: absolute;
+    top: 209.5%;
+    left: 1200px;
+}
+
+.gede3{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+.doc3 p{
+    color: white;
+}
+
+.ped3{
+    margin-left: 10px;
+}
+
+.square3{
+    background: #5E8C6A;
+    position: absolute;
+    top: 350px;
+    width: 345px;
+    height: 140px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.rs3{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 20px;
+}
+
+.rss3{
+    display: inline;
+}
+
+.topi3{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.toga3{
+    width: 20px;
+}
+
+.togas3{
+    display: inline;
+}
+
+.plus3{
+    position: absolute;
+    top: 30%;
+    left: 80%;
+}
+
+.view-more{
+    position: relative;
+    top: 30%;
+    left: 666px;
+    width: 223px;
+    height: 67px;
+    border-radius: 200px;
+    color: white;
+    background-color: #5E8C6A;
+    border: none;
+    text-decoration: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.view-more:hover{
+    background-color: white;
+    color: #3E6B4A;
+}
+
+.container4{
+    width: 100%;
+    background:white;
+    height: 900px;
+}
+
+.app {
+    width: 1196px;
+    height: 693px;
+    border-radius: 20px;
+    margin-top: 139px;
+    margin-left: 250px;
+    margin-bottom: 10px;
+
+}
+
+.app img{
+    width: 100%;
+}
+
+.app h1{
+    position: relative;
+    top: -97%;
+    left: 97px;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+.pname, .pmail, .sdoc, .stime, .pbday, .sdept, .pbdate{
+    text-align: center;
+    position: absolute;
+    top: 328%;
+    left: 20%;
+    width: 365px;
+    height: 66px;
+    border-radius: 158px;
+    border: none;
+    color: #898585;
+}
+
+.pmail{
+    top: 338%;
+}
+
+.sdoc{
+    top: 350%;
+}
+
+.stime{
+    top: 362%;
+}
+
+.dob{
+    position: absolute;
+    top: 325%;
+    left: 52%;
+    color: white;
+}
+
+.dob2{
+    position: absolute;
+    top: 347%;
+    left: 52%;
+    color: white;
+}
+
+.pbday, .pbdate{
+    left: 50%;
+}
+
+.pbdate{
+    top: 350%;
+}
+
+.sdept{
+    top: 338%;
+    left: 50%;
+}
+
+.book-now{
+    line-height: 70px;
+    text-align: center;
+    font-size: 22px;
+    position: absolute;
+    width: 361px;
+    height: 67px;
+    background: #5E8C6A;
+    text-decoration: none;
+    border-radius: 200px;
+    border: none;
+    cursor: pointer;
+    top: 362%;
+    display: block;
+    color: white;
+    left: 50%;
+}
+
+.container5{
+    width: 100%;
+    height: 676px;
+    background: linear-gradient(96deg, rgba(98, 140, 109, 0.37) 46.88%, rgba(99, 177, 119, 0.37) 78.73%, rgba(94, 140, 106, 0.00) 122.91%);
+}
+
+.container5 h1{
+    position: relative;
+    top: 10%;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 40px;
+}
+
+.test{
+    width: 103px;
+    position: relative;
+    font-size: 16px;
+    color: #5E8C6A;
+    top: 12%;
+    left: 48%;
+    font-weight: 700;
+}
+
+.ripyu, .ripyu2, .ripyu3{
+    top: 25%;
+    left: 15%;
+    position: relative;
+    width: 345px;
+    height: 240px;
+    background: white;
+    border-radius: 24px;
+}
+
+.ripyu2{
+    top: -10.5%;
+    left: 40%;
+}
+
+.ripyu3{
+    top: -46%;
+    left: 65%;
+}
+.bintang{
+    position: relative;
+    top: 5%;
+    left: 5%;
+    margin: 2px;
+    width: 24px;
+    height: 24px;
+}
+
+.rip1{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #545454;
+    font-size: 18px;
+
+}
+
+.bul1{
+    position: relative;
+    top: 30%;
+    left: 5%;
+    width: 46px;
+    height: 46px;
+}
+
+.rname, .rwho{
+    position: relative;
+    top: 10%;
+    left: 20%;
+}
+
+.rwho{
+    color: #9B9B9B;
+}
+
+.footer{
+    background: #f6f6f6;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logof{
+    position: absolute;
+    left: 45%;
+    top: 510%;
+}
+
+.loc, .loct{
+    position: relative;
+    top: 190px;
+    left: 600px;
+}
+
+.loct, .tlp{
+    font-size: 24px;
+    font-weight: 300;
+    display: inline;
+    color: #747474;
+}
+
+.tl, .tlp{
+    position: relative;
+    top: 50%;
+    left: 20%;
+}
+
+.footer hr{
+    position: relative;
+    top: 60%;
+    width: 90%;
+    left: 5%;
+}
+
+.crd, .cr{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 70%;
+    left: 40%;
+}
+
+.cr{
+    display: inline;
+    top: 69%;
+    color: #5E8C6A;
+}
